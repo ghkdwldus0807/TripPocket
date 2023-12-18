@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap");
+
+.separate {
+  font-weight: 200;
+  font-size: 33.3px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 53.3px;
+}
+
+.Top_list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.content_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_section {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.date_toggle_container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.current_date {
+  margin-right: 30px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.toggle_btn {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 6px 18px;
+  margin: 0px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+
+.toggle_btn.active {
+  background-color: #000000;
+  color: white;
+}
+
+.daily_details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.schedule,
+.expense {
+  flex: 0.48;
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add_btn,
+.edit_btn {
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 6px 18px;
+  font-size: 18px;
+}
+
+.timeline_container {
+  position: relative;
+  padding-left: 30px;
+}
+
+.timeline_container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 15px;
+  bottom: 0;
+  width: 2px;
+  background-color: black;
+}
+
+.timeline {
+  margin-top: 20px;
+  position: relative;
+  padding-top: 7.5px;
+  font-size: 25px;
+}
+
+.timeline_dot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  z-index: 1;
+  transform: translateX(-137%);
+}
+
+.schedule_detail {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.schedule_detail input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.expense_item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.expense_money {
+  flex: 0.7;
+  color: red;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.expense_time {
+  flex: 0.3;
+  text-align: right;
+}
+
+.expense_detail {
+  margin-top: 10px;
+}

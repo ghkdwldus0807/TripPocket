@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap");
+
+.Login {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  margin: 5%;
+  justify-content: space-between;
+}
+.Logo img {
+  display: block;
+  margin: 0 auto;
+}
+.logo_top {
+  width: 12%;
+  height: auto;
+}
+.logo_ {
+  width: 30%;
+  height: auto;
+}
+.ID_PW_Button {
+  margin: 7%; /*%이용해서 사용자 컴터 사이즈 맞추기*/
+  font-size: 3rem; /*rem이용하면 사용자 컴퓨터 사이즈에 맞출 수 있댕*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ID {
+  margin-bottom: 2%;
+  font-size: 2rem;
+  font-family: "Noto Serif KR", serif;
+}
+.ID label {
+  margin-right: 5%;
+}
+.ID input {
+  width: 27%;
+  height: 50px;
+  border-radius: 5%;
+}
+.PW label {
+  margin-right: 3%;
+  font-size: 2rem;
+  font-family: "Noto Serif KR", serif;
+}
+.PW input {
+  width: 27%;
+  height: 50px;
+  border-radius: 5%;
+}
+.Main_Login_Sign_Button {
+  display: flex;
+  justify-content: center;
+}
+.Main_Login_Sign_Button button {
+  font-family: "Noto Serif KR", serif;
+  font-size: 2rem;
+  width: 35%;
+  height: auto;
+  background-color: transparent; /* 배경색을 투명으로 설정 */
+  border: none; /* 테두리 제거 (선택사항) */
+  color: inherit; /* 텍스트 색상을 상속받음 */
+  cursor: pointer; /* 커서 스타일 설정 (선택사항) */
+}
+button.login_button {
+  border-left: 0.1rem dotted black;
+  border-right: 0.1rem dotted black;
+}
+
+.main_button:hover {
+  font-weight: 700;
+  color: #00008c;
+}
+.login_button:hover {
+  font-weight: 700;
+  color: #00008c;
+}
+.signin_button:hover {
+  font-weight: 700;
+  color: #00008c;
+}

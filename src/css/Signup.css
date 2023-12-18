@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap");
+
+.Signup {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  margin: 5%;
+  justify-content: space-between;
+}
+.Logo img {
+  display: block;
+  margin: 0 auto;
+}
+.logo_top {
+  width: 12%;
+  height: auto;
+}
+.logo_ {
+  width: 20%;
+  height: auto;
+}
+.ID_PW_Make {
+  margin: 5%; /*%이용해서 사용자 컴터 사이즈 맞추기*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ID,
+.PW,
+.Name,
+.Photo {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+.ID {
+  margin-bottom: 2%;
+  font-family: "Noto Serif KR", serif;
+}
+.ID label {
+  font-size: 1.5rem;
+}
+.ID input {
+  width: 40%;
+  height: 50px;
+  border-radius: 5%;
+}
+.PW {
+  margin-bottom: 2%;
+  font-size: 2rem;
+  font-family: "Noto Serif KR", serif;
+}
+.PW label {
+  font-size: 2rem;
+  font-family: "Noto Serif KR", serif;
+  font-size: 1.5rem;
+}
+.PW input {
+  width: 40%;
+  height: 50px;
+  border-radius: 5%;
+}
+.Name {
+  margin-bottom: 2%;
+  font-family: "Noto Serif KR", serif;
+}
+.Name label {
+  font-size: 1.5rem;
+  font-family: "Noto Serif KR", serif;
+}
+.Name input {
+  width: 40%;
+  height: 50px;
+  border-radius: 5%;
+}
+.Photo {
+  font-size: 2rem;
+  font-family: "Noto Serif KR", serif;
+}
+.Photo label {
+  font-size: 1.5rem;
+  font-family: "Noto Serif KR", serif;
+}
+.Photo input {
+  width: 40%;
+  height: 50px;
+  border-radius: 5%;
+}
+.Main_Sign_Button {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Main_Sign_Button button {
+  font-family: "Noto Serif KR", serif;
+  font-size: 2rem;
+  width: 100%;
+  height: auto;
+  background-color: transparent; /* 배경색을 투명으로 설정 */
+  border: none; /* 테두리 제거 (선택사항) */
+  color: inherit; /* 텍스트 색상을 상속받음 */
+  cursor: pointer; /* 커서 스타일 설정 (선택사항) */
+}
+.line {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.MoveTOMain_Button:hover {
+  font-weight: 700;
+  color: #00008c;
+}
+.SignUp_Button:hover {
+  font-weight: 700;
+  color: #00008c;
+}

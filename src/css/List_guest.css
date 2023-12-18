@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap");
+
+.List_guest {
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Serif KR", serif;
+}
+.Top {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.top_logo {
+  width: 6.5%;
+  height: auto;
+  margin-left: 1%;
+}
+.Top button {
+  font-family: "Noto Serif KR", serif;
+  font-size: 2rem;
+  width: 10%;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+.lists {
+  position: relative;
+}
+.lists img {
+  width: 12%;
+  height: auto;
+  margin: 1.5%;
+  margin-bottom: 0.5%;
+}
+.lists figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 5.3%;
+  right: 20px;
+  font-size: 1.4rem;
+  color: black;
+}
