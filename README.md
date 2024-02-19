@@ -7,7 +7,8 @@
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>   
 
 - 제작기간 : 2023.09.14 ~ 2023.12.02
-- Team : 김소은, 황지연
+- #### Team : 김소은, 황지연
+- #### My Part : Project Design, Frontend, Backend, DB (/planner, /memo etc..)
 
 ## 🩷주요 기능 소개
 1. [🧑‍💻로그인 및 회원가입](#로그인-및-회원가입)
