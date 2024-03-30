@@ -8,7 +8,7 @@
 
 - 제작기간 : 2023.09.14 ~ 2023.12.02
 - #### Team : 김소은, 황지연
-- #### My Part : Project Design, DB & Frontend, Backend (/planner, /memo etc..)
+- #### Jiyeon's Part : Project Design, DB & Frontend, Backend (/planner, /memo etc..)
 
 ## 🩷주요 기능 소개
 1. [🧑‍💻로그인 및 회원가입](#로그인-및-회원가입)
